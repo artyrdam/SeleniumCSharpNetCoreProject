@@ -11,7 +11,6 @@
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "DotNetSeleniumExtras.PageObjects.Core": "4.0.1",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
-          "Json.Net": "1.0.33",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.1.0",
@@ -47,14 +46,6 @@
           "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {
             "assemblyVersion": "3.11.0.0",
             "fileVersion": "3.11.0.0"
-          }
-        }
-      },
-      "Json.Net/1.0.33": {
-        "runtime": {
-          "lib/netstandard2.0/Json.Net.dll": {
-            "assemblyVersion": "1.0.33.1",
-            "fileVersion": "1.0.33.1"
           }
         }
       },
@@ -400,13 +391,6 @@
       "sha512": "sha512-xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
       "path": "dotnetseleniumextras.waithelpers/3.11.0",
       "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
-    },
-    "Json.Net/1.0.33": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5tE+db6BqhRAvITIVBeRsQorLGshPExfm4FmMRvWWAfs4RxeTbFFj2PIEybwmMW0qR30HKkXDYhq0YkDK2Jtxw==",
-      "path": "json.net/1.0.33",
-      "hashPath": "json.net.1.0.33.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.0.0": {
       "type": "package",
