@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SeleniumExtras.PageObjects;
+using TestProject1.Pages;
 
 namespace TestProject1
 {
@@ -18,10 +19,10 @@ namespace TestProject1
         [SetUp]
         public void startBrowser()
         {
-            ChromeOptions opt = new ChromeOptions();
+            /*ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
-            driver = new ChromeDriver(opt);
-            //driver = new ChromeDriver("C:\\Driver");
+            driver = new ChromeDriver(opt);*/
+            driver = new ChromeDriver();
         }
 
         [Test]
@@ -29,10 +30,27 @@ namespace TestProject1
         {
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com");
 
-            CustomControls.EnterText(driver.FindElement(By.Id("ContentPlaceHolder1_Meal")), "Tomato");
-            CustomControls.Click(driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")));
-            CustomControls.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almonds");
+            CustomControl.EnterText(driver.FindElement(By.Id("ContentPlaceHolder1_Meal")), "Tomato");
+            CustomControl.Click(driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")));
+            CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almonds");
+            CustomControl.SelectByText(driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed")), "Cauliflower");
 
+
+        }
+
+        [Test]
+        public void LoginTest()
+        {
+            driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+
+            HomePage homePage = new HomePage();
+            LoginPage loginPage = new LoginPage();
+
+            homePage.ClickLogin();
+            loginPage.EnterUserNameAndPassword("admin", "password");
+            loginPage.ClickLogin();
+
+           // Assert.That(homePage.IsLogOffButtonExist, Is.True, "Log off button is not displayed");
 
         }
 

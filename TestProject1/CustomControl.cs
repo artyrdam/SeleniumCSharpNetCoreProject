@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 
 namespace TestProject1 
 {
-    public class CustomControls : DriverHelper
+    public class CustomControl : DriverHelper
     {
         public static void ComboBox(string controlName, string value)
         {
@@ -21,9 +22,16 @@ namespace TestProject1
 
         public static void Click(IWebElement webElement) => webElement.Click();
 
-        public static void SelectByValue(IWebElement webElement)
+        public static void SelectByValue(IWebElement webElement, string value)
         {
-            
+            SelectElement selectElement = new SelectElement(webElement);
+            selectElement.SelectByValue(value);
+        }
+
+        public static void SelectByText(IWebElement webElement, string text)
+        {
+            SelectElement selectElement = new SelectElement(webElement);
+            selectElement.SelectByText(text);
         }
     }
 }

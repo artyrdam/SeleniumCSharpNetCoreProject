@@ -203,3 +203,4 @@ C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Deb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\WebDriver.Support.dll

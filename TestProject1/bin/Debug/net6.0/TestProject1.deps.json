@@ -14,6 +14,7 @@
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.1.0",
+          "Selenium.Support": "4.1.0",
           "Selenium.WebDriver": "4.1.0",
           "coverlet.collector": "3.1.0"
         },
@@ -344,6 +345,17 @@
         }
       },
       "NUnit3TestAdapter/4.1.0": {},
+      "Selenium.Support/4.1.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.1.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -461,6 +473,13 @@
       "sha512": "sha512-v45RJt87pPAWlCDIftmtQhNK0mXd81IcnTE6SmWUmxi6YegCvkQogZQ/ROw4zyNyo2HI3Ckby3LB0GHF4bEIXg==",
       "path": "nunit3testadapter/4.1.0",
       "hashPath": "nunit3testadapter.4.1.0.nupkg.sha512"
+    },
+    "Selenium.Support/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wuK5cfgVaimOZqyuriY2geGpNsI9DWky8CuBlrkBnmebkSrRftxqwyUVy0NLooHaAB2iaMj7qM+VOdUEX5bCHQ==",
+      "path": "selenium.support/4.1.0",
+      "hashPath": "selenium.support.4.1.0.nupkg.sha512"
     },
     "Selenium.WebDriver/4.1.0": {
       "type": "package",
