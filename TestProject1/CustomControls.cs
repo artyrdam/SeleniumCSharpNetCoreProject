@@ -17,5 +17,13 @@ namespace TestProject1
             driver.FindElement(By.XPath($"//div[@id='{controlName}-dropmenu']//li[text()='{value}']")).Click();
         }
 
+        public static void EnterText(IWebElement webElement, string value) => webElement.SendKeys(value);
+
+        public static void Click(IWebElement webElement) => webElement.Click();
+
+        public static void SelectByValue(IWebElement webElement)
+        {
+            
+        }
     }
 }

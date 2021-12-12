@@ -28,11 +28,9 @@ namespace TestProject1
         public void test()
         {
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com");
-            //System.Threading.Thread.Sleep(500);
-            driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
-            //Need to learn xpath syntax as you have to build from console
-            driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")).Click();
 
+            CustomControls.EnterText(driver.FindElement(By.Id("ContentPlaceHolder1_Meal")), "Tomato");
+            CustomControls.Click(driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")));
             CustomControls.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almonds");
 
 
