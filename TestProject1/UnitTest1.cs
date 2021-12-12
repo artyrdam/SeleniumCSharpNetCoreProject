@@ -18,10 +18,10 @@ namespace TestProject1
         [SetUp]
         public void startBrowser()
         {
-            //ChromeOptions opt = new ChromeOptions();
-            //opt.AddArguments("headless");
-            //driver = new ChromeDriver("C:\\Driver",opt);
-            driver = new ChromeDriver("C:\\Driver");
+            ChromeOptions opt = new ChromeOptions();
+            opt.AddArguments("headless");
+            driver = new ChromeDriver("C:\\Driver",opt);
+            //driver = new ChromeDriver("C:\\Driver");
         }
 
         [Test]
