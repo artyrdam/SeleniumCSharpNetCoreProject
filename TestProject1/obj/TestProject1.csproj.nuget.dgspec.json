@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
-            "Json.Net": {
-              "target": "Package",
-              "version": "[1.0.33, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.0.0, )"
