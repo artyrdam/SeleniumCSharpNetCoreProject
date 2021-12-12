@@ -33,7 +33,7 @@ namespace TestProject1
             //Need to learn xpath syntax as you have to build from console
             driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")).Click();
 
-            CustomControls.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
+            CustomControls.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almonds");
 
 
         }
