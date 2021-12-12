@@ -20,7 +20,7 @@ namespace TestProject1
         {
             ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
-            driver = new ChromeDriver("C:\\Driver", opt);
+            driver = new ChromeDriver(opt);
             //driver = new ChromeDriver("C:\\Driver");
         }
 
