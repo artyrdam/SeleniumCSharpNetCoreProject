@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using SeleniumExtras.PageObjects;
 using TestProject1.Pages;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace TestProject1
 {
@@ -26,7 +28,7 @@ namespace TestProject1
         }
 
         
-        public void test()
+/*        public void test()
         {
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com");
 
@@ -36,12 +38,16 @@ namespace TestProject1
             CustomControl.SelectByText(driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed")), "Cauliflower");
 
 
-        }
+        }*/
 
         [Test]
         public void TestMethod()
         {
+            driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+
             HomePage homePage = new HomePage();
+            //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
             homePage.ClickVisitNow();
         }
 
