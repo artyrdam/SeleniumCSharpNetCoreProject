@@ -25,7 +25,7 @@ namespace TestProject1
             driver = new ChromeDriver(opt);
         }
 
-        [Test]
+        
         public void test()
         {
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com");

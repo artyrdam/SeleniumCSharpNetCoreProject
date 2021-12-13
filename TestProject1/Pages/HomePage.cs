@@ -15,7 +15,7 @@ namespace TestProject1.Pages
         IWebElement lnkEmployeeList => driver.FindElement(By.LinkText("Employee List"));
         IWebElement lnkAbout => driver.FindElement(By.LinkText("About"));
         IWebElement lnkHome => driver.FindElement(By.LinkText("Home"));
-        IWebElement lnkVisitNow => driver.FindElement(By.XPath("/html/body/div[2]/div[1]/table/tbody/tr/td/a"));
+        IWebElement lnkVisitNow => driver.FindElement(By.XPath("//td//*[@class='btn btn-primary btn-lg']"));
 
 
 
