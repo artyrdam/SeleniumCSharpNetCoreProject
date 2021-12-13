@@ -15,8 +15,9 @@ namespace TestProject1.Pages
         IWebElement lnkEmployeeList => driver.FindElement(By.LinkText("Employee List"));
         IWebElement lnkAbout => driver.FindElement(By.LinkText("About"));
         IWebElement lnkHome => driver.FindElement(By.LinkText("Home"));
+        IWebElement lnkVisitNow => driver.FindElement(By.XPath("/html/body/div[2]/div[1]/table/tbody/tr/td/a"));
 
-        
+
 
         public void ClickLogin() => lnkLogin.Click();
         public void ClickLogOff() => lnkLogOff.Click();
@@ -24,6 +25,7 @@ namespace TestProject1.Pages
         public void ClicjEmployeeList() => lnkEmployeeList.Click();
         public void ClickAbout() => lnkAbout.Click();
         public void ClickHome() => lnkHome.Click();
+        public void ClickVisitNow() => lnkVisitNow.Click();
 
         public bool IsLogOffButtonExist => lnkLogOff.Displayed;
 

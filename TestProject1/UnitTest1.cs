@@ -22,7 +22,7 @@ namespace TestProject1
             ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
 
-            driver = new ChromeDriver(opt);
+            driver = new ChromeDriver();
         }
 
         [Test]
@@ -36,6 +36,13 @@ namespace TestProject1
             CustomControl.SelectByText(driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed")), "Cauliflower");
 
 
+        }
+
+        [Test]
+        public void TestMethod()
+        {
+            HomePage homePage = new HomePage();
+            homePage.ClickVisitNow();
         }
 
         [Test]
@@ -97,7 +104,6 @@ namespace TestProject1
         [TearDown]
         public void closeBrowser()
         {
-            System.Threading.Thread.Sleep(10000);
             driver.Close();
             driver.Quit();
         }

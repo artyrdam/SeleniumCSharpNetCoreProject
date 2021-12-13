@@ -13,7 +13,7 @@ namespace TestProject1.Pages
         IWebElement textPassword => driver.FindElement(By.Id("Password"));
         IWebElement textConfirmPasswpord => driver.FindElement(By.Id("ConfirmPassword"));
         IWebElement textEmail => driver.FindElement(By.Id("Email"));
-        IWebElement btnRegister => driver.FindElement(By.ClassName("btn-default"));
+        IWebElement btnRegister => driver.FindElement(By.XPath("//div[@class='col-md-offset-2 col-md-10']//*[@type='submit']"));
 
 
         public string registerPageUrl => driver.Url;
