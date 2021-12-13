@@ -102,14 +102,14 @@ C:\Users\User\source\repos\TestProject1\TestProject1\bin\Debug\net6.0\Json.Net.d
 C:\Users\User\source\repos\TestProject1\TestProject1\bin\Debug\net6.0\SeleniumExtras.PageObjects.dll
 C:\Users\User\source\repos\TestProject1\TestProject1\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\testhost.exe
+C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\testhost.dll
+C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\NUnit3.TestAdapter.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\nunit.engine.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\nunit.engine.api.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\nunit.engine.core.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\testcentric.engine.metadata.dll
-C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\testhost.dll
-C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\TestProject1.deps.json
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\TestProject1.runtimeconfig.json
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\TestProject1.dll
@@ -127,6 +127,7 @@ C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Deb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\NuGet.Frameworks.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\WebDriver.Support.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\WebDriver.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -193,7 +194,6 @@ C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Deb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.csproj.AssemblyReference.cache
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfoInputs.cache
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfo.cs
@@ -203,4 +203,4 @@ C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Deb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
-C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\User\Documents\GitHub\SeleniumCSharpNetCoreProject\TestProject1\obj\Debug\net6.0\TestProject1.csproj.AssemblyReference.cache

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestProject1.Pages
 {
-    public class LoginPage :DriverHelper
+    public class LoginPage : DriverHelper
     {
         //this is like assigning to a variable but to a method instead
         IWebElement textUserName => driver.FindElement(By.Id("UserName"));
@@ -21,9 +21,7 @@ namespace TestProject1.Pages
             textPassword.SendKeys(password);
         }
 
-        public void ClickLogin()
-        {
-            btnLogin.Click();
-        }
+        public void ClickLogin() => btnLogin.Click();
+
     }
 }

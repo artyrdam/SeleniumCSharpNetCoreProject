@@ -21,8 +21,8 @@ namespace TestProject1
         {
             ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
+
             driver = new ChromeDriver(opt);
-            //driver = new ChromeDriver();
         }
 
         [Test]
@@ -46,17 +46,58 @@ namespace TestProject1
             HomePage homePage = new HomePage();
             LoginPage loginPage = new LoginPage();
 
+
             homePage.ClickLogin();
             loginPage.EnterUserNameAndPassword("admin", "password");
             loginPage.ClickLogin();
 
-           // Assert.That(homePage.IsLogOffButtonExist, Is.True, "Log off button is not displayed");
+            Assert.That(homePage.IsLogOffButtonExist, Is.True, "Log off button is not displayed");
 
         }
+
+        [Test]
+        public void RegistrationTest()
+        {
+            driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+
+            HomePage homePage = new HomePage();
+            RegisterPage registerPage = new RegisterPage();
+
+            homePage.ClickRegister();
+
+            Assert.AreEqual(registerPage.registerPageUrl, "http://eaapp.somee.com/Account/Register","Register url incorrect");
+
+            registerPage.EnterRegistrationDetails("adamtestuser1","TestPass123", "TestPass123", "test@testadam.com");
+            registerPage.ClickRegister();
+        }
+
+        [Test]
+        public async Task AsynRegTest()
+        {
+            string urlinasync = await TestAsync1();
+            Assert.IsNotEmpty(urlinasync);
+            Console.Write("Result URL is: " + urlinasync);
+        }
+       
+        public async Task<string> TestAsync1()
+        {
+            string url = String.Empty;
+            await Task.Run(() =>
+            {
+                RegisterPage registerPage = new RegisterPage();
+                url = registerPage.registerPageUrl;
+               
+            });
+            return url;
+        }
+
+
+
 
         [TearDown]
         public void closeBrowser()
         {
+            System.Threading.Thread.Sleep(10000);
             driver.Close();
             driver.Quit();
         }
