@@ -23,7 +23,7 @@ namespace TestProject1
         {
             ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
-            //headless
+            //headless1
             driver = new ChromeDriver(opt);
         }
 
