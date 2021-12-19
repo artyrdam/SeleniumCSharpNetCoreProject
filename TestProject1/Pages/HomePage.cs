@@ -30,4 +30,6 @@ namespace TestProject1.Pages
         public bool IsLogOffButtonExist => lnkLogOff.Displayed;
 
     }
+
+
 }
