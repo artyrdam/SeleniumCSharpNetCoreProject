@@ -24,7 +24,7 @@ namespace TestProject1
             ChromeOptions opt = new ChromeOptions();
             opt.AddArguments("headless");
             //headless11
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(opt);
         }
 
         
@@ -114,7 +114,16 @@ namespace TestProject1
             driver.Quit();
         }
 
+        struct Client
+        {
+            public string name;
+        }
 
+        public string Name
+        {
+            set { };
+            get { };
+        }
         
     }
 }
