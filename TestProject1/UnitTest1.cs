@@ -114,16 +114,6 @@ namespace TestProject1
             driver.Quit();
         }
 
-        struct Client
-        {
-            public string name;
-        }
 
-        public string Name
-        {
-            set { };
-            get { };
-        }
-        
     }
 }
