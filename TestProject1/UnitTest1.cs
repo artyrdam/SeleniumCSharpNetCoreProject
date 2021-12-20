@@ -78,9 +78,9 @@ namespace TestProject1
 
             homePage.ClickRegister();
 
-            Assert.AreEqual(registerPage.registerPageUrl, "http://eaapp.somee.com/Account/Register","Register url incorrect");
+            Assert.AreEqual(registerPage.registerPageUrl, "http://eaapp.somee.com/Account/Register", "Register url incorrect");
 
-            registerPage.EnterRegistrationDetails("adamtestuser1","TestPass123", "TestPass123", "test@testadam.com");
+            registerPage.EnterRegistrationDetails("adamtestuser1", "TestPass123", "TestPass123", "test@testadam.com");
             registerPage.ClickRegister();
         }
 
